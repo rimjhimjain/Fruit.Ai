@@ -1,0 +1,193 @@
+.container {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  padding-left: 26px;
+  flex-direction: column;
+  align-items: start;
+  margin: -5px 0 0 auto;
+  background: linear-gradient(to right, #7ee7ee, #e0bcf3);
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.date {
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.74);
+  align-self: center;
+  margin-top: 16px;
+  width: 248px;
+  max-width: 100%;
+  font-size: 10px;
+  color: #000;
+  font-weight: 300;
+  padding: 10px 68px;
+}
+
+@media (max-width: 991px) {
+  .date {
+    padding: 0 20px;
+  }
+}
+
+.summaryHeader {
+  border-radius: 15px 15px 15px 0;
+  background-color: #d9d9d9;
+  margin-top: 23px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  padding: 16px;
+}
+
+@media (max-width: 991px) {
+  .summaryHeader {
+    margin-left: 5px;
+  }
+}
+
+.productCard {
+  border-radius: 30px;
+  background-color: #eaefeb;
+  display: flex;
+  margin-top: 16px;
+  width: 320px;
+  max-width: 100%;
+  gap: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  justify-content: space-between;
+  padding: 6px 41px 6px 10px;
+}
+
+@media (max-width: 991px) {
+  .productCard {
+    padding-right: 20px;
+    white-space: initial;
+  }
+}
+
+.productInfo {
+  display: flex;
+  gap: 15px;
+  color: #ee0a22;
+}
+
+@media (max-width: 991px) {
+  .productInfo {
+    white-space: initial;
+  }
+}
+
+.productImage {
+  aspect-ratio: 1.03;
+  object-fit: contain;
+  object-position: center;
+  width: 60px;
+  border-radius: 15px;
+}
+
+.productDetails {
+  align-self: start;
+  display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .productDetails {
+    white-space: initial;
+  }
+}
+
+.productName {
+  font-size: 16px;
+}
+
+.productPrice {
+  font-size: 12px;
+  align-self: start;
+  margin-top: 7px;
+}
+
+.quantityControl {
+  align-self: start;
+  display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .quantityControl {
+    white-space: initial;
+  }
+}
+
+.quantityButtons {
+  align-self: start;
+  display: flex;
+  margin-left: 12px;
+  gap: 8px;
+  font-size: 16px;
+  color: #ee0a22;
+}
+
+@media (max-width: 991px) {
+  .quantityButtons {
+    margin-left: 10px;
+    white-space: initial;
+  }
+}
+
+.quantityButton {
+  aspect-ratio: 1.18;
+  object-fit: contain;
+  object-position: center;
+  width: 13px;
+  margin-top: 7px;
+}
+
+.totalPrice {
+  color: rgba(238, 10, 34, 0.7);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  .totalPrice {
+    margin-right: 3px;
+  }
+}
+
+.addMorePrompt {
+  border-radius: 0 15px 15px 0;
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  padding: 16px;
+}
+
+@media (max-width: 991px) {
+  .addMorePrompt {
+    margin-left: 7px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

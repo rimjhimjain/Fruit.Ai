@@ -1,0 +1,34 @@
+
+.container {
+  border-radius: 45px;
+  background: linear-gradient(to right, #7ee7ee, #e0bcf3);
+  display: flex;
+  max-width: 1349px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: start;
+  text-align: center;
+  padding: 254px 41px;
+  font: 600 46px Dosis, sans-serif;
+}
+
+.logo {
+  aspect-ratio: 1.5;
+  object-fit: contain;
+  object-position: center;
+  width: 36px;
+}
+
+.title {
+  color: #000;
+}
+
+.highlight {
+  color: #c475f5;
+}
+
+.subtitle {
+  color: #b2b2b2;
+  font-size: 13px;
+  margin-top: 9px;
+}

@@ -1,0 +1,247 @@
+/* Add these styles at the beginning of your CSS file */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #e0bcf3, #7ee7ee);
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+  display: flex;
+  width: 100%;
+  max-width: 1307px;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 20px;
+  padding: 34px 31px 19px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.loginTitle {
+  color: #000;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  align-self: center;
+  font: 400 32px Inter, sans-serif;
+  border: 1px solid #000;
+}
+
+.termsText {
+  color: #000;
+  text-align: center;
+  margin-top: 16px;
+  font: 400 12px Inter, sans-serif;
+}
+
+.termsLink {
+  color: #2395d6;
+}
+
+.tabContainer {
+  align-self: center;
+  display: flex;
+  margin-top: 59px;
+  width: 143px;
+  max-width: 100%;
+  gap: 20px;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: space-between;
+  font: 400 15px Inter, sans-serif;
+}
+
+.activeTab {
+  color: #237ec1;
+}
+
+.inactiveTab {
+  color: #a6a6a6;
+}
+
+.inputContainer {
+  align-self: stretch;
+  display: flex;
+  margin-top: 42px;
+  gap: 15px;
+  color: #a6a6a6;
+  padding-right: 156px;
+  font: 400 16px Inter, sans-serif;
+}
+
+.inputIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-right: -3px;
+  flex-grow: 1;
+  max-width: 25px;
+}
+
+.inputField {
+  flex-basis: auto;
+  width: auto;
+  flex-grow: 1;
+  margin-left: auto;
+  background: none;
+  border: none;
+}
+
+.inputDivider {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+  margin: 4px -3px 0 0;
+  border: 1px solid #a6a6a6;
+}
+
+.passwordContainer {
+  display: flex;
+  margin-top: 27px;
+  width: 100%;
+  align-items: start;
+  gap: 20px;
+  color: #a6a6a6;
+  white-space: nowrap;
+  justify-content: space-between;
+  font: 400 16px Inter, sans-serif;
+}
+
+.passwordInputWrapper {
+  display: flex;
+  gap: 13px;
+}
+
+.passwordIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+}
+
+.visibilityIcon {
+  aspect-ratio: 1.83;
+  object-fit: contain;
+  object-position: center;
+  width: 33px;
+  margin-top: 8px;
+}
+
+.passwordDivider {
+  margin-top: 7px;
+  width: 100%;
+  height: 0.05px;
+  border: 1px solid #a6a6a6;
+}
+
+.optionsContainer {
+  display: flex;
+  margin-top: 21px;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+  font: 400 12px Inter, sans-serif;
+}
+
+.rememberPasswordWrapper {
+  display: flex;
+  gap: 9px;
+  color: #000;
+}
+
+.checkboxIcon {
+  aspect-ratio: 1.12;
+  object-fit: contain;
+  object-position: center;
+  width: 19px;
+  border-radius: 2px;
+}
+
+.forgetPasswordLink {
+  color: #0386d0;
+}
+
+.loginButtonWrapper {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  white-space: nowrap;
+  justify-content: center;
+  margin: 8px 12px 8px 10px;
+  padding: 4px;
+  font: 400 25px Sakkal Majalla, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.loginButton {
+  border-radius: 5px;
+  background-color: #0386d0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  margin: 0 12px 8px 10px;
+  padding: 5px 82px 13px 80px;
+}
+
+.connectText {
+  color: #000;
+  align-self: center;
+  margin: 26px 0 0 13px;
+  font: 400 14px Inter, sans-serif;
+}
+
+.socialIconsContainer {
+  align-self: center;
+  display: flex;
+  align-items: start;
+  gap: 18px;
+  justify-content: start;
+  padding: 11px;
+}
+
+.socialIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 39px;
+}
+
+.footerLogo {
+  aspect-ratio: 0.89;
+  object-fit: contain;
+  object-position: center;
+  width: 65px;
+  border-radius: 14px;
+  align-self: center;
+  margin-top: 34px;
+}
+
+@media (max-width: 640px) {
+  .loginButtonWrapper {
+    padding-right: 9px;
+    justify-content: center;
+  }
+
+  .loginButton {
+    overflow: auto;
+    margin-left: auto;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

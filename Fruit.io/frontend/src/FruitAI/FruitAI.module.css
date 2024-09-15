@@ -1,0 +1,155 @@
+
+.container {
+  border-radius: 45px;
+  background: linear-gradient(to bottom right, #e0bcf3, #7ee7ee);
+  display: flex;
+  max-width: 1263px;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-weight: 300;
+  padding: 30px 0 7px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 0 34px;
+}
+
+
+.userInfo {
+  display: flex;
+  margin-left: 13px;
+  width: 100%;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.profileSection {
+  align-self: start;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  gap: 13px;
+}
+
+.backIcon {
+  aspect-ratio: 0.57;
+  object-fit: contain;
+  object-position: center;
+  width: 8px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.profilePic {
+  aspect-ratio: 1.09;
+  object-fit: contain;
+  object-position: center;
+  width: 50px;
+  border-radius: 50%;
+  align-self: stretch;
+}
+
+.userName {
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.menuIcon {
+  aspect-ratio: 0.65;
+  object-fit: contain;
+  object-position: center;
+  width: 33px;
+}
+
+.divider {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 11px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.72);
+}
+
+.dateIndicator {
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.74);
+  align-self: center;
+  margin-top: 12px;
+  width: 206px;
+  max-width: 100%;
+  font-size: 10px;
+  padding: 4px 49px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 34px;
+}
+
+.message {
+  max-width: 302px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 20px;
+  margin-top: 16px;
+}
+
+.aiMessage {
+  border-radius: 15px 15px 15px 0px;
+  background-color: #d9d9d9;
+  align-self: flex-start;
+}
+
+.userMessage {
+  border-radius: 15px 15px 0px 15px;
+  background-color: #c475f5;
+  align-self: flex-end;
+}
+
+.timestamp {
+  font-size: 12px;
+  margin-top: 11px;
+}
+
+.aiTimestamp {
+  align-self: flex-start;
+}
+
+.userTimestamp {
+  align-self: flex-end;
+}
+
+@media (max-width: 640px) {
+  .message {
+    padding: 7px 11px;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.backButton {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+.backButton:hover {
+  background-color: #45a049;
+}

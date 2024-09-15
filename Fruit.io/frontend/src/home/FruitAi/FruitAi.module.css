@@ -1,0 +1,103 @@
+
+.container {
+  border-radius: 45px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  max-width: 1284px;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Dosis, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  background-image: linear-gradient(to right, #7ee7ee, #e0bcf3),
+    url(https://cdn.builder.io/api/v1/image/assets%2F990951cee2cd4dd68c57c02a825e8377%2F2949dc9b3b9d4039a23d74d46876ab5b);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 24px;
+  padding: 45px 30px 144px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    background-image: linear-gradient(to right, #7ee7ee, #e0bcf3),
+      url(https://cdn.builder.io/api/v1/image/assets%2F990951cee2cd4dd68c57c02a825e8377%2F2949dc9b3b9d4039a23d74d46876ab5b);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #cfb0fc;
+    max-width: 411px;
+  }
+}
+
+.title {
+  color: #1c8774;
+  font-size: 30px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.subtitle {
+  color: #12b194;
+  font-size: 15px;
+  letter-spacing: 1px;
+  align-self: center;
+  margin: 16px 0 0 10px;
+}
+
+.cardContainer {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  font-size: 30px;
+  color: #c84ad3;
+  white-space: nowrap;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 18px;
+  width: 139px;
+  height: 139px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatBotCard {
+  background-color: rgba(246, 174, 128, 0.6);
+}
+
+.aboutCard {
+  background-color: #f3c4f2;
+  font-size: 32px;
+}
+
+.faqCard {
+  background-color: #cfb0fc;
+  font-size: 36px;
+  color: #3b5998;
+}
+
+.cardImage {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 139px;
+  border-radius: 18px;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
